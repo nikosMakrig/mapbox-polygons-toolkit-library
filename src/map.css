@@ -1,0 +1,66 @@
+.mapboxgl-ctrl-group button + button {
+    border-top: 2px solid #ddd;
+}
+
+.mapbox-gl-draw_ctrl-draw-btn.mapbox-gl-draw_point {
+    font-size: 20px;
+}
+
+.mapboxgl-ctrl-group.mapboxgl-ctrl {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: none;
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-compass .mapboxgl-ctrl-icon {
+    height: 18px;
+    margin: 6px;
+    width: 18px;
+    --img-url: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='yes'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath fill='%231F3044'%0Ad='M5.5,14.2c-0.9,0.8-1.9,0-1.5-1l4-9c0.2-0.4,0.6-0.8,1-0.8s0.8,0.4,1,0.8l4,9c0.4,1-0.6,1.8-1.5,1l-3.5-3L5.5,14.2z'/%3E%3C/svg%3E");
+    background-image: var(--img-url);
+}
+
+.mapboxgl-ctrl {
+    display: none;
+}
+.mapboxgl-ctrl-group button.mapboxgl-ctrl-compass {
+    display: none;
+}
+
+.mapboxgl-popup {
+    backdrop-filter: blur(6px);
+    z-index: 2;
+}
+
+.mapboxgl-popup-tip {
+    display: none;
+}
+
+.mapboxgl-popup-content {
+    background: none;
+    padding: 0;
+}
+
+/*.remove-area-marker {*/
+/*    background-image: url('../../assets/removeAction.png');*/
+/*    width: 54px;*/
+/*    height: 54px;*/
+/*    cursor: pointer;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.add-area-marker {*/
+/*    background-image: url('../../assets/addAction.png');*/
+/*    width: 54px;*/
+/*    height: 54px;*/
+/*    cursor: pointer;*/
+/*    background-size: cover;*/
+/*}*/
+
+.custom-point-actions-popup.mapboxgl-popup {
+    backdrop-filter: none;
+}
+.custom-point-actions-popup .mapboxgl-popup-content {
+    box-shadow: none;
+}
